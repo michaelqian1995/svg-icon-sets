@@ -4,8 +4,8 @@ html {
   color: white;
 }
 
-.border-box {
-  border-bottom: 1px solid rgba(255, 255, 255, 1);
+.box-line {
+  border-bottom: 1px solid #ff5e3a;
 }
 
 .btn {
@@ -21,8 +21,8 @@ html {
 
 @media only screen and (min-width: 60em) {
 
-  .border-box {
-    border-right: 1px solid #ff5e3a;
+  .bos-line {
+    border-right: 1px solid rgba(255, 255, 255, .5);
     border-bottom: 0;
   }
 
