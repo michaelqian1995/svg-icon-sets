@@ -1,7 +1,29 @@
 html {
-  margin: 0;
-  background-image: linear-gradient(#ff9500, #ff5e3a);
-  background-size: cover;
   font-family: Overpass, sans-serif;
-  color: #fff;
+  background-image: linear-gradient(#ff9500, #ff5e3a);
+  color: white;
+}
+
+.border-box {
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+
+.btn {
+  color: white;
+  border-color: white;
+}
+
+.btn:hover {
+  color: white;
+  border-color: #fff;
+  background-color: #ff9500;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .border-box {
+    border-right: 1px solid rgba(255, 255, 255, 1);
+    border-bottom: 0;
+  }
+
 }
